@@ -15,7 +15,7 @@ spec:
         app: sample-python-app
     spec:
       containers:
-      - name: sample-python-app
-        image: aravind-sample-k8s
+      - name: python-app
+        image: aravindsunki/python-sample-app-demo:v1
         ports:
         - containerPort: 8000
